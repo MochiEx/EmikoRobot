@@ -1,5 +1,5 @@
 {
-      "name": "Emiko Robot",
+      "name": "Ciel Robot",
       "description": "A Powerful Telegram group management bot with anime theme.",
       "keywords": [
          "telegram",
@@ -9,7 +9,7 @@
          "emikorobot"
       ],
     
-   "logo":    "https://telegra.ph/file/35e56ba7eace7332356ad.jpg",  
+   "logo":    " https://telegra.ph/file/d8e86a93325cc64420913.jpg", 
    "repository": "https://github.com/kennedy-ex/https://github.com/kennedy-ex/EmikoRobot",
    "addons": [
           {

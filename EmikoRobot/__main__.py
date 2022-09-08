@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an PusatMusic management bot [✨](https://telegra.ph/file/9a3157b78ec4a0f498dc0.jpg)
+✪ I'm an Ciel management bot [✨](https://telegra.ph/file/d8e86a93325cc64420913.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -113,7 +113,7 @@ Click on the button bellow to get description about specifics command."""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @Mamenkuy \
+ You can support the project by contacting @onlybionn \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -428,8 +428,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/PCOgroup"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/PCOgroup"),
+                    InlineKeyboardButton(text="Support", url="t.me/CielSupport"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/CielSupport"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),

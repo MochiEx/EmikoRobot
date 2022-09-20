@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an Ciel management bot [✨](https://telegra.ph/file/d8e86a93325cc64420913.jpg)
+✪ I'm an Zoid management bot [✨](https://telegra.ph/file/1d1db976d445cc751eb53.jpg) 
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -103,7 +103,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💢 Add Me To Your Group 💢", url=f"t.me/{bu}?startgroup=new"),
+            text="➕ Add Me To Your Group ➕", url=f"t.me/{bu}?startgroup=new"),
     ],
 ]
 
@@ -113,7 +113,7 @@ Click on the button bellow to get description about specifics command."""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @onlybionn \
+ You can support the project by contacting @Eror_404_NF \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -428,8 +428,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/CielSupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/CielSupport"),
+                    InlineKeyboardButton(text="Support", url="t.me/ZoidXRobotlog"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/ZoidXRobotlog"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
@@ -786,7 +786,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                "👋 Hi, i'm alive.",
+                "Ok I've been active!.",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:

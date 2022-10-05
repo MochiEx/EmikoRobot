@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://telegra.ph/file/5a180a318e09d49295c8e.jpg">
+  <img src="https://telegra.ph/file/f058c38df080749b04418.jpg">
 </p>
 
 <h4><p align="center"> EMIKO ROBOT </p></h4>
 
-<p align="center">Emiko Robot is a modular bot running on python3 with anime theme and have a lot features.</p>
+<p align="center">Zaxvier Robot is a modular bot running on python3 with anime theme and have a lot features.</p>
 
 <p align="center">
 <a href="https://t.me/Aikarobot"> <img src="https://img.shields.io/badge/Emiko-Robot-blue?&logo=telegram" alt="Emiko on Telegram" /> </a><br>

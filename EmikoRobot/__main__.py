@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an xavier management bot [✨](https://telegra.ph/file/e4ba6a6592b61368656da.jpg)
+✪ I'm an Zaxvier management bot [✨](https://telegra.ph/file/f058c38df080749b04418.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*

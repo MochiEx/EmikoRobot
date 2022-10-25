@@ -93,7 +93,7 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text=f"about {dispatcher.bot.first_name}", callback_data="emiko_"),
+        InlineKeyboardButton(text=f"about Shino Manage", callback_data="emiko_"),
     ],
     [
         InlineKeyboardButton(text="Help❔", callback_data="help_back"),
@@ -113,7 +113,7 @@ Click on the button bellow to get description about specifics command."""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @Papih404 \
+ You can support the project by contacting @HayatoShinomiya \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 

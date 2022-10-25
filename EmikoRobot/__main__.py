@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an Hayato management bot [✨](https://telegra.ph/file/f058c38df080749b04418.jpg)
+✪ I'm an Hayato management bot [✨](https://graph.org/file/0f1986d1d9d28a8b0ccfa.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -448,8 +448,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="HayatoShinomiya", url="https://github.com/hay4tod"),
-                    InlineKeyboardButton(text="Shino", url="https://t.me/hay4tod"),
+                    InlineKeyboardButton(text="Hayato", url="https://github.com/hay4tod"),
+                    InlineKeyboardButton(text="Shino", url="https://t.me/HayatoXAdmin"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),

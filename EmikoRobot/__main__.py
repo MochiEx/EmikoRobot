@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an Zaxvier management bot [✨](https://telegra.ph/file/f058c38df080749b04418.jpg)
+✪ I'm an Hayato management bot [✨](https://telegra.ph/file/f058c38df080749b04418.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -428,8 +428,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/zaxviersupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/zaxviersupport"),
+                    InlineKeyboardButton(text="Support", url="t.me/nganudotcom"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/hay4tod"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
@@ -448,24 +448,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="sena-ex", url="https://github.com/kennedy-ex"),
-                    InlineKeyboardButton(text="TheHamkerCat", url="https://github.com/TheHamkerCat"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="Feri", url="https://github.com/FeriEXP"),
-                    InlineKeyboardButton(text="riz-ex", url="https://github.com/riz-ex"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="Anime Kaizoku", url="https://github.com/animekaizoku"),
-                    InlineKeyboardButton(text="TheGhost Hunter", url="https://github.com/HuntingBots"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="Inuka Asith", url="https://github.com/inukaasith"),
-                    InlineKeyboardButton(text="Noob-Kittu", url="https://github.com/noob-kittu"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="Queen Arzoo", url="https://github.com/QueenArzoo"),
-                    InlineKeyboardButton(text="Paul Larsen", url="https://github.com/PaulSonOfLars"),
+                    InlineKeyboardButton(text="HayatoShinomiya", url="https://github.com/hay4tod"),
+                    InlineKeyboardButton(text="Shino", url="https://t.me/hay4tod"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),

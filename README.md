@@ -1,13 +1,13 @@
 <p align="center">
-  <img src="https://telegra.ph/file/f058c38df080749b04418.jpg">
+  <img src="https://telegra.ph/file/6e28a422b21c624341fe0.jpg">
 </p>
 
-<h4><p align="center"> ZAXVIER ROBOT </p></h4>
+<h4><p align="center"> HAYATO ROBOT </p></h4>
 
-<p align="center">Zaxvier Robot is a modular bot running on python3 with anime theme and have a lot features.</p>
+<p align="center">Hayato Robot is a modular bot running on python3 with anime theme and have a lot features.</p>
 
 <p align="center">
-<a href="https://t.me/Aikarobot"> <img src="https://img.shields.io/badge/Emiko-Robot-blue?&logo=telegram" alt="Emiko on Telegram" /> </a><br>
+<a href="https://t.me/ShinV1Bot"> <img src="https://img.shields.io/badge/Hayato-Robot-blue?&logo=telegram" alt="Hayato on Telegram" /> </a><br>
 <a href="https://python-telegram-bot.org"> <img src="https://img.shields.io/badge/PTB-13.13-white?&style=flat-round&logo=github" alt="Python Telegram Bot" /> </a>
 <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a><br>
 <a href="https://docs.telethon.dev"> <img src="https://img.shields.io/badge/Telethon-1.24.0-red?&style=flat-round&logo=github" alt="Telethon" /> </a>
@@ -34,13 +34,14 @@ This Bot is Created by KennedyProject, If your kanging this without fork at leas
 - EmikoRobot
 - SaitamaRobot 
 - WilliamButcherBot
+- HayatoRobot
 ```
 
 ### Support
 <p>
-<a href="https://t.me/usernot4found"> <img src="https://img.shields.io/badge/Sena-Ex-blue?&logo=telegram" alt="Sena on Telegram" /> </a><br>
-<a href="https://t.me/EmikoSupport"> <img src="https://img.shields.io/badge/Support-Chat-blue?&logo=telegram" alt="Support Chat" /> </a><br>
-<a href="https://t.me/KennedyProject"> <img src="https://img.shields.io/badge/Update-Channel-blue?&logo=telegram" alt="Update Channel" /> </a><br>
+<a href="https://t.me/HayatoShinomiya"> <img src="https://img.shields.io/badge/Sena-Ex-blue?&logo=telegram" alt="Sena on Telegram" /> </a><br>
+<a href="https://t.me/nganudotcom"> <img src="https://img.shields.io/badge/Support-Chat-blue?&logo=telegram" alt="Support Chat" /> </a><br>
+<a href="https://t.me/hay4tod"> <img src="https://img.shields.io/badge/Update-Channel-blue?&logo=telegram" alt="Update Channel" /> </a><br>
 </p>
 
 ## Credit 

@@ -39,7 +39,7 @@ This Bot is Created by KennedyProject, If your kanging this without fork at leas
 
 ### Support
 <p>
-<a href="https://t.me/HayatoShinomiya"> <img src="https://img.shields.io/badge/Sena-Ex-blue?&logo=telegram" alt="Sena on Telegram" /> </a><br>
+<a href="https://t.me/HayatoShinomiya"> <img src="https://img.shields.io/badge/Hayato-Shinomiya-blue?&logo=telegram" alt="Sena on Telegram" /> </a><br>
 <a href="https://t.me/nganudotcom"> <img src="https://img.shields.io/badge/Support-Chat-blue?&logo=telegram" alt="Support Chat" /> </a><br>
 <a href="https://t.me/hay4tod"> <img src="https://img.shields.io/badge/Update-Channel-blue?&logo=telegram" alt="Update Channel" /> </a><br>
 </p>

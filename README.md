@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/6e28a422b21c624341fe0.jpg">
+  <img src="https://telegra.ph/file/69ee5dbe1543d2ae5984f.jpg">
 </p>
 
 <h4><p align="center"> HAYATO ROBOT </p></h4>

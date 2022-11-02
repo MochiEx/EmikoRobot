@@ -13,12 +13,12 @@ PHOTO = "https://telegra.ph/file/c9e4bae9ba9a52df0a3ed.jpg"
 
 @register(pattern=("/alive"))
 async def awake(event):
-  TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Hayato Robot.** \n\n"
+  TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Mochi Robot.** \n\n"
   TEXT += " **I'm Working Properly** \n\n"
-  TEXT += f"🔰**My Master : [Hayato](https://t.me/HayatoShinomiya)** \n\n"
+  TEXT += f"🔰**My Master : [Mochi](https://t.me/Mochidev)** \n\n"
   TEXT += f"🔰**Library Version :** `{telever}` \n\n"
   TEXT += f"🔰**Telethon Version :** `{tlhver}` \n\n"
   TEXT += f"🔰**Pyrogram Version :** `{pyrover}` \n\n"
   TEXT += "**Thanks For Adding Me Here ✨**"
-  BUTTON = [[Button.url("Help", "https://t.me/shinorobot?start=help"), Button.url("Updates", "https://t.me/hay4tod")]]
+  BUTTON = [[Button.url("Help", "https://t.me/shinorobot?start=help"), Button.url("Updates", "https://t.me/mochi_dev")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=TEXT,  buttons=BUTTON)

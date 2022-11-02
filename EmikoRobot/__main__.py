@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an Hayato management bot [✨](https://graph.org/file/0f1986d1d9d28a8b0ccfa.jpg)
+✪ I'm an Mochi management bot [✨](https://graph.org/file/0f1986d1d9d28a8b0ccfa.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -113,7 +113,7 @@ Click on the button bellow to get description about specifics command."""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @HayatoShinomiya \
+ You can support the project by contacting @Mochidev \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -422,14 +422,14 @@ def emiko_about_callback(update, context):
         )
     elif query.data == "emiko_support":
         query.message.edit_text(
-            text="*๏ Hayato support chats*"
+            text="*๏ Mochi support chats*"
             f"\nJoin My Support Group/Channel for see or report a problem on {dispatcher.bot.first_name}.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
                     InlineKeyboardButton(text="Support", url="t.me/nganudotcom"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/hay4tod"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/mochi_dev"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
@@ -448,8 +448,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Hayato", url="https://github.com/hay4tod"),
-                    InlineKeyboardButton(text="Shino", url="https://t.me/HayatoXAdmin"),
+                    InlineKeyboardButton(text="Mochi", url="https://github.com/MochiEX"),
+                    InlineKeyboardButton(text="Shino", url="https://t.me/Mochidev"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
@@ -721,7 +721,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 2045556472:
+        if OWNER_ID != 5351111807:
             update.effective_message.reply_text(
                 "I'm free for everyone ❤️ If you wanna make me smile, just join"
                 "[My Channel]({})".format(DONATION_LINK),

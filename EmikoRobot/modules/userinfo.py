@@ -353,9 +353,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/hay4tod"),
+                                "Health", url="https://t.me/Mochidev"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/hay4tod")
+                                "Disaster", url="https://t.me/Mochidev")
                         ],
                     ]
                 ),
@@ -422,7 +422,7 @@ def set_about_me(update: Update, context: CallbackContext):
     if message.reply_to_message:
         repl_message = message.reply_to_message
         repl_user_id = repl_message.from_user.id
-        if repl_user_id in [bot.id, 777000, 1087968824] and (user_id in DEV_USERS):
+        if repl_user_id in [bot.id, 195907, 1087968824] and (user_id in DEV_USERS):
             user_id = repl_user_id
     text = message.text
     info = text.split(None, 1)
@@ -445,9 +445,9 @@ def set_about_me(update: Update, context: CallbackContext):
 
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
-    stats = "<b>╔═━「 Current Hayato Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
+    stats = "<b>╔═━「 Current Mochi Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
-    result += "\n<b>╘═━「 Powered By HayatoRobot 」</b>"
+    result += "\n<b>╘═━「 Powered By MochiRobot 」</b>"
     update.effective_message.reply_text(
         result,
         parse_mode=ParseMode.HTML, 
